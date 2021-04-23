@@ -12,7 +12,7 @@ export default function App() {
     });
     const userJson = await userData.json();
     console.log(userJson);
-    setUser(userJson);
+    setUser(userJson.results[0].gender);
   };
   return (
     <div>
