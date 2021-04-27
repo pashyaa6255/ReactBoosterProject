@@ -2,3 +2,32 @@
   font-family: sans-serif;
   text-align: center;
 }
+#master {
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(
+    closest-corner at 60% 55%,
+    white,
+    yellow,
+    skyblue
+  );
+}
+button {
+  padding: 10px 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
